@@ -48,8 +48,7 @@ for name in [
 let package = Package(
     name: "Hedera",
     platforms: [
-        .macOS(.v10_15)
-        // .iOS(.v12),
+         .iOS(.v14)
     ],
     products: [
         .library(name: "Hedera", targets: ["Hedera"])
